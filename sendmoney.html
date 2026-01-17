@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contactos- Wallet</title> 
+
+<!-- CDN DE BOOTSTRAP Y ESTILOS CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <style>
+    body {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container my-5">
+  <div class="bg-gradient text-light p-5 rounded-3">
+    <h2 class="h10 mb-2">Transferir a Contactos</h2>
+
+  <form id="formContacto">
+      <div class="form-group">
+        <label for="searchContact">Buscar Contacto:</label>
+        <br>
+        <input type="text" class="form-control" id="searchContact" placeholder="Contacto">
+        <br>
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Agregar nuevo contacto</button>
+    </form>   
+
+<section>
+            <div id="contenedorUsuarios" class="col-12 col-lg-6 mb-4">
+            
+             <h2 class="h10 mb-2">👥 Contactos</h2>
+          
+
+              <div class="table-responsive">
+                <table class="table table-sm table-bordered mb-0">
+                  <thead class="thead-light">
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Cuenta</th>
+                      <th>Banco</th>
+                      <th>Transferir</th>
+                    </tr>
+                  </thead>
+
+                  <tbody id="tablaUsuarios">
+                    <tr>
+                      <td contenteditable="true">Ana Muñoz</td>
+                      <td contenteditable="true">9.164.269-1</td>
+                      <td contenteditable="true">Banco Estado</td>
+                      <td><button type="submit" class="btnTransferir btn btn-sm btn-danger">Transferir</button></td>
+                    </tr>
+                    <tr>
+                      <td contenteditable="true">Luis Pérez</td>
+                      <td contenteditable="true">4.216.841-7</td>
+                      <td contenteditable="true">Banco Santander</td>
+                      <td><button type="submit" class="btnTransferir btn btn-sm btn-danger">Transferir</button></td>
+                    </tr>
+                     <tr>
+                      <td contenteditable="true">Juan Ortiz</td>
+                      <td contenteditable="true">6.318.220-2</td>
+                      <td contenteditable="true">Banco Santander</td>
+                      <td><button type="submit" class="btnTransferir btn btn-sm btn-danger">Transferir</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+             <a href="menu.html" class="btn btn-secondary">Volver al Menú Principal</a>
+          </div>
+        </div>
+
+    </section>
+    
+
+<!-- SCRIPTS BOOTSTRAP,JQUERY, JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="assets/js/sendmoney.js"></script>
+</body>
+</html>

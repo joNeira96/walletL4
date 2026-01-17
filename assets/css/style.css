@@ -1,0 +1,40 @@
+
+
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/bolsa-dinero-billetera-3d-icono-billete-tarjeta-credito-sobre-fondo-purpura-ilustracion-renderizado-3d_37129-2606.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+header{
+    text-align: center;}
+
+.btn { 
+    background-color: rgb(205, 149, 226);
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#btnIngresar { 
+    background-color: rgb(205, 149, 226);
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+
+}
+
+.btn:hover { 
+    color: white;
+    background-color: rgb(68, 13, 76);
+}
+
+
+
